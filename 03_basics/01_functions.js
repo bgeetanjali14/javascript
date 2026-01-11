@@ -9,9 +9,9 @@ function saymyName(){
 
 //function to add numbers
 
-function addTwoNumbers(Number1, Number2){
-    console.log(Number1 + Number2);
-}
+// function addTwoNumbers(Number1, Number2){
+//     console.log(Number1 + Number2);
+// }
 
 // addTwoNumbers(3, 4)
 
@@ -19,4 +19,18 @@ function addTwoNumbers(Number1, Number2){
 
 // addTwoNumbers(3, "a")
 
-addTwoNumbers(3, null)
+//  function addTwoNumbers(Number1, Number2){
+//     let result = Number1 + Number2
+//     return result
+//  }
+
+// const result = addTwoNumbers(3, 5)
+// console.log("Result:" ,result);
+
+
+function loginUserMessage(username){
+    return `${username} just logged in`
+}
+
+console.log(loginUserMessage("GEETANJALI"))
+ console.log(loginUserMessage())
