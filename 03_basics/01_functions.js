@@ -34,3 +34,12 @@ function loginUserMessage(username){
 
 console.log(loginUserMessage("GEETANJALI"))
  console.log(loginUserMessage())
+
+
+ //rest operator - ... (same as spread operator just use case differs)
+
+ function calculateCartPrice(...num1){
+    return num1 
+ }
+ console.log(calculateCartPrice(200,300,500,657,890));
+ 
