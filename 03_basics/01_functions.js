@@ -42,4 +42,26 @@ console.log(loginUserMessage("GEETANJALI"))
     return num1 
  }
  console.log(calculateCartPrice(200,300,500,657,890));
+
+
+ const user = {
+    username: "hitesh",
+    price: 199
+ }
+ 
+ function handleObject (anyobject){
+    console.log(`Username is ${anyobject.user} and price is ${anyobject.price}`);
+    
+
+ }
+
+ handleObject(user)
+
+
+ const myNewArray = [200, 300, 450, 670, 789,890]
+
+ function returnSecondValue(getArray){
+    return getArray[3]
+ }
+ console.log(returnSecondValue(myNewArray));
  
